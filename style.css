@@ -1,0 +1,32 @@
+/* global css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* global css end */
+.carousel-item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+/* mobile resposive */
+
+@media (max-width: 768px) {
+    .mobile-slider-height {
+        min-height: 320px;
+        height: auto;
+    }
+}
